@@ -89,7 +89,8 @@ print('\\You\\')
 print('', end='\n\n')
 print('\t\t Tan')
 print('Hello\rWorld') # \r를 기준으로 커서가 맨 앞으로 이동하기 때문에 World만 출력됨
-print('\f') # \f를 기준으로 새로운 페이지에 작성
+print('123\f'456) # \f를 기준으로 다음 라인에서 시작. # 123
+                                                    #    456
 print('Hello\bWorld')
 print('\110\145\154\154')
 
