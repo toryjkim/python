@@ -54,8 +54,8 @@ print('{b} is the next letter {a}'.format(a='A', b='B')) # B is the next letter 
 
 # %s: 문자, %d: 숫자, %f: 실수, %
 print("{:s}'s age is {:d}".format('Yeong', 29)) # Yeong's age is 29
-print("{number:4.2f}".format(number=4933.125)) # 4933.12 5 이하는 반내림
-print("{number:4.2f}".format(number=4933.12501)) # 4933.13   5초과는 반올림
+print("{number:4.2f}".format(number=4933.125)) # 4933.12 5 미만은 반내림
+print("{number:4.2f}".format(number=4933.12501)) # 4933.13   5 이상은 반올림
 ```
 
 구문법
