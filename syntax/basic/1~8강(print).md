@@ -35,7 +35,7 @@ print('still first line')
 
 출력
 ###
-firt line, still first line
+first line, still first line
 ###
 ```
 
